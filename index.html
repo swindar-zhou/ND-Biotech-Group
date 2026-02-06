@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Notre Dame Biotech Group - Notre Dame's premier student organization for the life sciences. Connecting students to the biotech industry.">
+    <meta name="theme-color" content="#0C2340">
+    
+    <title>Notre Dame Biotech Group | ND's Premier Biotech Innovator Network</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/nd-biotech-logo.png">
+    <link rel="apple-touch-icon" href="images/nd-biotech-logo.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__container">
+            <!-- Logo -->
+            <a href="/" class="header__logo" aria-label="Notre Dame Biotech Group Home">
+                <img src="images/nd-biotech-header-logo.png" alt="Notre Dame Biotech Group">
+            </a>
+
+            <!-- Navigation -->
+            <nav class="nav" id="nav" aria-label="Main navigation">
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--dropdown">
+                        <button class="nav__link" aria-expanded="false" aria-haspopup="true">
+                            About <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <ul class="nav__dropdown">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="advisory-board.html">Advisory Board</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="sponsors.html">Sponsors</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a href="events.html" class="nav__link">Events</a>
+                    </li>
+                    <li class="nav__item nav__item--dropdown">
+                        <button class="nav__link" aria-expanded="false" aria-haspopup="true">
+                            Network <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <ul class="nav__dropdown">
+                            <li><a href="blog.html">Alumni</a></li>
+                            <li><a href="courses.html">Companies</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item nav__item--dropdown">
+                        <button class="nav__link" aria-expanded="false" aria-haspopup="true">
+                            Get in Touch <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <ul class="nav__dropdown">
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="get-involved.html">Get Involved</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Social Links -->
+            <div class="header__social">
+                <a href="#" aria-label="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="header__menu-btn" id="menu-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">
+                <span class="header__menu-icon"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__bg"></div>
+            <div class="hero__overlay"></div>
+            <div class="hero__content">
+                <h1 class="hero__title">Notre Dame's Premier Connection to the Biotech Industry</h1>
+                
+                <div class="hero__actions">
+                    <a href="#" class="btn btn--primary">Join Mailing List</a>
+                    <a href="contact.html" class="btn btn--outline">Get in Touch</a>
+                </div>
+
+                <div class="hero__social">
+                    <span>Follow NDBG on</span>
+                    <a href="#" class="hero__social-btn">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                    <a href="#" class="hero__social-btn">
+                        <i class="fas fa-envelope"></i> Listserv
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats" aria-labelledby="stats-heading">
+            <div class="container">
+                <h2 id="stats-heading" class="section-title">NDBG 24-25 Year in Review</h2>
+                <p class="section-subtitle">Growing stronger every year!</p>
+                
+                <div class="stats__grid">
+                    <article class="stats__card">
+                        <span class="stats__number" data-count="150">0</span>
+                        <span class="stats__plus">+</span>
+                        <span class="stats__label">Members</span>
+                    </article>
+                    <article class="stats__card">
+                        <span class="stats__number" data-count="500">0</span>
+                        <span class="stats__plus">+</span>
+                        <span class="stats__label">Followers</span>
+                    </article>
+                    <article class="stats__card">
+                        <span class="stats__number" data-count="25">0</span>
+                        <span class="stats__plus">+</span>
+                        <span class="stats__label">Events</span>
+                    </article>
+                    <article class="stats__card">
+                        <span class="stats__number" data-count="400">0</span>
+                        <span class="stats__plus">+</span>
+                        <span class="stats__label">Attendees</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" aria-labelledby="features-heading">
+            <div class="container">
+                <h2 id="features-heading" class="section-title section-title--light">Career Development, Education, Networking, and More</h2>
+                
+                <div class="features__grid">
+                    <article class="feature">
+                        <div class="feature__icon">
+                            <i class="fas fa-compass" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="feature__title">Explore</h3>
+                        <p class="feature__text">Exposure to the wide variety of career options available to students interested in the biotechnology industry, including discussion panels and site visits.</p>
+                    </article>
+                    
+                    <article class="feature">
+                        <div class="feature__icon">
+                            <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="feature__title">Learn</h3>
+                        <p class="feature__text">Seminars and mini-courses on topics identified by biotechnology industry leaders as common knowledge gaps for undergraduates, PhD students, and postdocs.</p>
+                    </article>
+                    
+                    <article class="feature">
+                        <div class="feature__icon">
+                            <i class="fas fa-handshake" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="feature__title">Connect</h3>
+                        <p class="feature__text">Network with professionals and executives from biotechnology companies and various sub-sectors of the biotechnology industry across the Midwest and beyond.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="mission" aria-labelledby="mission-heading">
+            <div class="container">
+                <h2 id="mission-heading" class="section-title">Mission Statement</h2>
+                <p class="mission__text">The Notre Dame Biotech Group aims to provide Notre Dame community members from all backgrounds with the knowledge and resources to become future leaders in biotech. We strive to cultivate innovation, nurture collaborative relationships with industry leaders, and increase diversity within the life sciences ecosystem.</p>
+            </div>
+        </section>
+
+        <!-- Events Preview Section -->
+        <section class="events-preview" aria-labelledby="events-heading">
+            <div class="container">
+                <div class="events-preview__content">
+                    <div class="events-preview__text">
+                        <h2 id="events-heading" class="section-title">Upcoming Events</h2>
+                        <p>NDBG hosts and organizes diverse events that nurture and leverage Notre Dame's growing relationship with the biotech ecosystem in the Midwest and beyond.</p>
+                        <a href="events.html" class="btn btn--primary">Past & Upcoming Events</a>
+                    </div>
+                    <div class="events-preview__visual">
+                        <div class="events-preview__card">
+                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                            <span>Upcoming Event</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Preview Section -->
+        <section class="team-preview" aria-labelledby="team-heading">
+            <div class="container">
+                <h2 id="team-heading" class="section-title section-title--light">Who We Are</h2>
+                <p class="section-subtitle section-subtitle--light">NDBG is run by Notre Dame graduate and professional students passionate about facilitating careers and innovation in the biotech ecosystem for our peers.</p>
+                <a href="team.html" class="btn btn--outline-light">Meet Our Team</a>
+            </div>
+        </section>
+
+        <!-- Advisory Board Section -->
+        <section class="advisors" aria-labelledby="advisors-heading">
+            <div class="container">
+                <h2 id="advisors-heading" class="section-title">Advisory Board</h2>
+                <p class="section-subtitle">Meet our distinguished advisors</p>
+                
+                <div class="advisors__grid">
+                    <article class="advisor">
+                        <div class="advisor__avatar">
+                            <i class="fas fa-user" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="advisor__name">Dr. Jane Smith, PhD</h3>
+                        <p class="advisor__role">Professor of Biological Sciences, University of Notre Dame</p>
+                    </article>
+                    
+                    <article class="advisor">
+                        <div class="advisor__avatar">
+                            <i class="fas fa-user" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="advisor__name">Dr. John Doe, MD</h3>
+                        <p class="advisor__role">Chief Scientific Officer, Midwest Biotech Company</p>
+                    </article>
+                    
+                    <article class="advisor">
+                        <div class="advisor__avatar">
+                            <i class="fas fa-user" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="advisor__name">Dr. Emily Johnson, PhD</h3>
+                        <p class="advisor__role">Partner, Life Sciences Venture Capital</p>
+                    </article>
+                    
+                    <article class="advisor">
+                        <div class="advisor__avatar">
+                            <i class="fas fa-user" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="advisor__name">Dr. Michael Chen, PhD</h3>
+                        <p class="advisor__role">Director of Research, Innovation Labs</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section class="partners" aria-labelledby="partners-heading">
+            <div class="container">
+                <h2 id="partners-heading" class="section-title">Our Partners</h2>
+                <div class="partners__grid">
+                    <div class="partner"><span>Partner 1</span></div>
+                    <div class="partner"><span>Partner 2</span></div>
+                    <div class="partner"><span>Partner 3</span></div>
+                    <div class="partner"><span>Partner 4</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sponsors Section -->
+        <section class="sponsors" aria-labelledby="sponsors-heading">
+            <div class="container">
+                <h2 id="sponsors-heading" class="section-title">Our Sponsors</h2>
+                <div class="sponsors__grid">
+                    <div class="sponsor"><span>Sponsor 1</span></div>
+                    <div class="sponsor"><span>Sponsor 2</span></div>
+                    <div class="sponsor"><span>Sponsor 3</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta" aria-labelledby="cta-heading">
+            <div class="container">
+                <h2 id="cta-heading">Interested in keeping up with NDBG's events and developments?</h2>
+                <a href="contact.html" class="btn btn--primary btn--lg">Contact Us</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__about">
+                    <img src="images/nd-biotech-logo.png" alt="ND Biotech Group" class="footer__logo" width="80" height="80">
+                    <p>The Notre Dame Biotech Group was founded to increase the pace of innovation by training student leaders in the biotechnology space.</p>
+                    <div class="footer__social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer__links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__links">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="blog.html">Biotech Insights</a></li>
+                        <li><a href="jobs.html">Jobs</a></li>
+                        <li><a href="get-involved.html">Get Involved</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> ndbiotech@nd.edu</p>
+                    <p><i class="fas fa-map-marker-alt"></i> University of Notre Dame<br>Notre Dame, IN 46556</p>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2026 Notre Dame Biotech Group. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
